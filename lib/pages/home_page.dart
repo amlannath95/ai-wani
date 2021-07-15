@@ -177,8 +177,8 @@ class _HomePageState extends State<HomePage> {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-          ).h(100).p16(),
-          "Start eith - Hey Alan 👇".text.italic.semiBold.white.make(),
+          ).h(80).p16(),
+          "Start with - Hey Alan 👇".text.italic.semiBold.white.make(),
           10.heightBox,
           VxSwiper.builder(itemCount: sugg.length,
           height: 50.0,
@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                   .onInkDoubleTap(() {
                       _playMusic(rad.url);
               })
-                  .p16();
+                  .p24();
           }, ).centered() : Center(
             child: CircularProgressIndicator(
               backgroundColor: Colors.white,
